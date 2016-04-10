@@ -1,0 +1,170 @@
+/* line 116, ../sass/app.scss */
+body {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-direction: normal;
+  -webkit-box-orient: vertical;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  -webkit-justify-content: space-between;
+  -moz-justify-content: space-between;
+  justify-content: space-between;
+  max-width: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 16px;
+  background-color: #162955;
+  color: #061539;
+}
+/* line 127, ../sass/app.scss */
+body .title {
+  background: -moz-linear-gradient(top, #4f628e 10%, white 90%);
+  background: -ms-linear-gradient(top, #4f628e 10%, white 90%);
+  background: -o-linear-gradient(top, #4f628e 10%, white 90%);
+  background-image: -webkit-linear-gradient(top, #4f628e 10%, white 90%);
+  padding: 0 0 1em;
+  font-size: 20px;
+  text-align: center;
+}
+/* line 132, ../sass/app.scss */
+body .title h1 {
+  line-height: 2;
+  font-size: 2.4em;
+  text-shadow: 0.018em 0.018em 0.3em #fff;
+  padding: 0.5em 0 0;
+  margin: 0 auto;
+  max-width: 90%;
+}
+/* line 141, ../sass/app.scss */
+body .main {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  justify-content: center;
+  margin: 1em 0 4em;
+}
+/* line 145, ../sass/app.scss */
+body .main .quote-container {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-direction: normal;
+  -webkit-box-orient: vertical;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  -webkit-justify-content: space-between;
+  -moz-justify-content: space-between;
+  justify-content: space-between;
+  min-height: 11em;
+  border-radius: 0.3em;
+  margin: 2em 0;
+  padding: 2em;
+  background-color: #eeeeee;
+  opacity: 0.9;
+  background-image: linear-gradient(#4f628e 0.1em, transparent 0.1em);
+  background-size: 100% 1.8em;
+  width: 50%;
+}
+/* line 158, ../sass/app.scss */
+body .main .quote-container .quote-text {
+  margin: 1.8em 0;
+}
+/* line 160, ../sass/app.scss */
+body .main .quote-container .quote-text i {
+  margin: 0 0.5em;
+}
+/* line 163, ../sass/app.scss */
+body .main .quote-container .quote-text #text {
+  margin-top: 0;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.3;
+}
+/* line 170, ../sass/app.scss */
+body .main .quote-container .quote-author {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-direction: normal;
+  -webkit-box-orient: vertical;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin: 2em 0;
+}
+/* line 174, ../sass/app.scss */
+body .main .quote-container .quote-author #author {
+  -webkit-align-self: flex-end;
+  -moz-align-self: flex-end;
+  -ms-flex-item-align: end;
+  align-self: flex-end;
+  font-size: 18px;
+  line-height: 1.3;
+}
+/* line 180, ../sass/app.scss */
+body .main .quote-container .buttons {
+  -webkit-align-self: flex-end;
+  -moz-align-self: flex-end;
+  -ms-flex-item-align: end;
+  align-self: flex-end;
+}
+/* line 182, ../sass/app.scss */
+body .main .quote-container .buttons button {
+  padding: 0.6em 1em;
+  background-color: #4f628e;
+  border-radius: 0.3em;
+  font-size: 15px;
+  border: none;
+  color: #eee;
+  outline: none;
+}
+/* line 16, ../sass/app.scss */
+body .main .quote-container .buttons button:hover {
+  background-color: #405074;
+}
+/* line 19, ../sass/app.scss */
+body .main .quote-container .buttons button:active {
+  background-color: #21293c;
+}
+/* line 185, ../sass/app.scss */
+body .main .quote-container .buttons button:hover {
+  outline: none;
+}
+/* line 192, ../sass/app.scss */
+body footer {
+  background: -moz-linear-gradient(top, #4f628e 10%, white 90%);
+  background: -ms-linear-gradient(top, #4f628e 10%, white 90%);
+  background: -o-linear-gradient(top, #4f628e 10%, white 90%);
+  background-image: -webkit-linear-gradient(top, #4f628e 10%, white 90%);
+  position: fixed;
+  display: block;
+  width: 100%;
+  bottom: 0;
+}
+/* line 198, ../sass/app.scss */
+body footer p {
+  padding: 0 2em;
+}
